@@ -31,6 +31,7 @@
     cursor: pointer;
     position: relative;
     border-radius: 4px;
+    text-transform: capitalize;
 }
 #select img {
     width: 15px;
@@ -54,6 +55,7 @@
 #select ul li {
     padding: 10px 20px;
     transition: 0.7s;
+    text-transform: capitalize;
 }
 .search-bar input {
     padding: 10px 25px;
@@ -63,5 +65,6 @@
     font-size: 18px;
 }
 #select ul li:hover {
-    padding-left: 1px;
+   color: blue;
+   font-size: 18px;
 }
